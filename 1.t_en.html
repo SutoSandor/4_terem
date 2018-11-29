@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style> 
+      p.floatright{text-align: right;}
+  </style>
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+ <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>The history of Gödöllő from 1945 to the End of Communism </h1>
+  <br>
+
+  <p id="szoveg">
+      Just like the rest of the whole country after the Second World War, the life of Gödöllő also took a new direction. The estate frameworks defining the previous centuries came to an end, the holiday resort characteristics were replaced by the formation of a socialist industrial and cultural center. Soviet troops stationed in the castle, the Metropolitan Social Home was moved there too. The population found work in factories installed here and in Budapest. <br><br>
+In 1950 the University of Agricultural Sciences was placed to Gödöllő, in the building of the former Premonstratensian secondary school. In the spirit of the socialist industrialization the Ganz Electric Meter Factory was built in the Erzsébet Park, then the Automotive Repair Company on the Isaszegi road. Smaller factories were established also: News -Technical Factory, Home Industry Co-operatives, Volán Transport Company, etc.<br><br>
+More and more people settled down in Gödöllő, the population increased (1950: 12 200 people, 1965: 20 780 inhabitants). It became necessary to execute a large-scale settlement development. Based on the decision of the Presidential Council Gödöllő was declared a processus town from 1 January 1966.<br><br>
+The most important task of the town was the creation of houses and infrastructure. A number of housing estates were built in the Alsópark (Stromfeld, today Palota-kert), János Street, Kazinczy street (Mosolygó Antal Boulevard), around the Erzsébet-park: (Korvin Ottó boulevard, today Erzsébet boulevard) and Szabadság Square. Grocery stores were built in the housing estates, a service house was opened in the János Street, and a  furniture store next to the Stromfeld housing estate. In addition to the new stores restaurants served the city's needs (Rézgombos, Patak Restaurant, in the '80s the Napsugár). New factories moved to Gödöllő, in 1966 the HUMAN, in 1969 the Agricultural Machinery Research Institute.<br><br>
+Due to the recruitment of women kindergartens and nurseries were built. A new lightweight-structured school was built in the Légszesz street (1974), and in Máriabesnyő (1975), but the existing school buildings were also extended. In 1955 the gymnasium began operations in the former cloister of the Marian Sisters, the school moved to the city center in 1988. The vocational school got a new, modern building and then a college in the '70s. In 1972 an independent music school opened in Gödöllő. The building of the new Cultural Centre (1981) and the foundation of the Local History Room, then the Collection (now the Town Museum) brought a qualitative change in the cultural life.<br><br>
+As a part of urban development a clinic (SZTK), a lung screening- and an ambulance station (1972), and a blood transfusion sub center were built in the city. The developing public transport system was supported by the construction of the bus station and the subway. During the construction the old city line disappeared, a number of historic houses were demolished.<br><br>
+Our city was at the forefront of the changing of the Communist regime, the local opposition called for the resignation of Ferencné Cservenka, Member of Parliament. Cservenkáné, as the President (1962-1983) of the Pest County Committee of the Hungarian Socialist Workers' Party (MSZMP), greatly influenced and directed the city. Finally, in April 1989 the representative voluntarily gave up her seat. The last board meeting of the Council was held in Gödöllő on 21 September 1990.<br><br>
+
+
+
+    
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
